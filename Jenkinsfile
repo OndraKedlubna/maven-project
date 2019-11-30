@@ -12,6 +12,7 @@ pipeline {
              steps {
                  echo 'krok 2'
              }
+        }
 
 
         stage('Build') {
