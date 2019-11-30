@@ -7,10 +7,7 @@ pipeline {
     stages {
         stage('Priprava') {
              steps {
-                 echo 'krok 1'
-             }
-             steps {
-                 echo 'krok 2'
+                 echo 'Zacinam se psychcicky pripravovat'
              }
         }
 
