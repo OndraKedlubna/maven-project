@@ -26,10 +26,10 @@ pipeline {
                 echo 'Testing..'
             }
         }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
+        stage ('Deploy to Staging'){
+               steps {
+                    build job: 'Deploy-to-staging'
+              }
         }
     }
 }
